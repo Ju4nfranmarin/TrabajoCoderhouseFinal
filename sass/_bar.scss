@@ -11,7 +11,7 @@
 
 .sectionGridsBar {
   display: grid;
-  grid-area: "" img img img "" "" img img img "" "" img img img "";
+  grid-area: " img img img " " img img img " " img img img ";
   grid-template-columns: 200px 200px 200px;
   grid-template-rows: 50px 250px;
   column-gap: 160px;
