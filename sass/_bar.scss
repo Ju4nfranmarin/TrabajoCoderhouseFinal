@@ -1,0 +1,121 @@
+/*ESTILOS BAR*/
+#bar {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bodyBar {
+  background-color: black;
+}
+
+.sectionGridsBar {
+  display: grid;
+  grid-area: "" img img img "" "" img img img "" "" img img img "";
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 50px 250px;
+  column-gap: 160px;
+  row-gap: 230px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.negroni {
+  height: 250px;
+  width: 250px;
+  grid-row: 1;
+  grid-column: 1;
+  box-sizing: border-box;
+  border: 4px #660080 solid;
+  overflow: hidden;
+  transition: .4s ease;
+  cursor: pointer;
+}
+
+.fernet {
+  height: 250px;
+  width: 250px;
+  grid-row: 1;
+  grid-column: 2;
+  box-sizing: border-box;
+  border: 4px #660080 solid;
+  overflow: hidden;
+  transition: .4s ease;
+  cursor: pointer;
+}
+
+.daiquiri {
+  height: 250px;
+  width: 250px;
+  grid-row: 1;
+  grid-column: 3;
+  box-sizing: border-box;
+  border: 4px #660080 solid;
+  overflow: hidden;
+  transition: .4s ease;
+  cursor: pointer;
+}
+
+.gintonic {
+  height: 250px;
+  width: 250px;
+  grid-row: 2;
+  grid-column: 1;
+  box-sizing: border-box;
+  border: 4px #660080 solid;
+  overflow: hidden;
+  transition: .4s ease;
+  cursor: pointer;
+}
+
+.margarita {
+  height: 250px;
+  width: 250px;
+  grid-row: 2;
+  grid-column: 2;
+  box-sizing: border-box;
+  border: 4px #660080 solid;
+  overflow: hidden;
+  transition: .4s ease;
+  cursor: pointer;
+}
+
+.whiscola {
+  height: 250px;
+  width: 250px;
+  grid-row: 2;
+  grid-column: 3;
+  box-sizing: border-box;
+  border: 4px #660080 solid;
+  overflow: hidden;
+  transition: .4s ease;
+  cursor: pointer;
+}
+
+.negroni:hover {
+  transform: scale(1.5);
+}
+
+.fernet:hover {
+  transform: scale(1.5);
+}
+
+.daiquiri:hover { 
+    transform: scale(1.5);
+}
+
+.gintonic:hover {
+    transform: scale(1.5);
+
+}
+
+.margarita:hover {
+  transform: scale(1.5);
+
+}
+
+.whiscola:hover {
+  transform: scale(1.5);
+
+}
+

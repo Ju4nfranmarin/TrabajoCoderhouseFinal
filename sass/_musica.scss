@@ -1,0 +1,141 @@
+/*ESTILOS MUSICA*/
+.bodyMusica {
+    background-color: black;
+  }
+  
+  .boxMusica1 {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    border: 20px #660080 solid;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 40px #660080 solid;
+    background-color: #660080;
+    margin-bottom: 10px;
+  }
+  
+  .sectionGridsMusica {
+    display: grid;
+    grid-area: "" img img img "";
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 75px;
+    column-gap: 150px;
+    row-gap: 2px;
+    justify-content: center;
+    margin-bottom: 15%;
+  }
+  
+  /* ESTILO IMAGEN DEATH / SODA */
+  .slipknot, .death, .soda {
+    height: 202px;
+    width: 303px;
+    box-sizing: border-box;
+    border: 4px #660080 solid;
+  }
+  
+  /* ESTILO FIGCAPTION*/
+  figcaption {
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    padding: 0px;
+    font-family: "Metal Mania", serif;
+    font-size: 21px;
+  }
+  
+  .boxMusica2 {
+    width: 100%;
+    height: 25px;
+    padding: 30px;
+    border: 20px #660080 solid;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 100vw black solid;
+    background-color: #660080;
+    margin-bottom: 10px;
+    
+  }
+  
+  .articulo {
+    margin-top: 250px;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  /* Estilo rocola*/
+  .rocola {
+    display: flex;
+    height: 350px;
+    width: 325px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 0px;
+    border: 1px;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 4px #660080 solid;
+    overflow: hidden;
+    transition: .4s ease;
+    cursor: pointer;
+  }
+  .rocola:hover{
+    transform: scale(1.5);
+  }
+  
+  .grids3 {
+    display: grid;
+    grid-area: "" img "";
+    grid-template-columns: 200px;
+    grid-template-rows: 71px;
+    column-gap: 150px;
+    row-gap: 2px;
+    justify-content: center;
+    margin-bottom: 150px;
+    margin-right: 150px;
+  }
+  
+  .boxMusica3 {
+    width: 100%;
+    height: 25px;
+    padding: 30px;
+    border: 20px #660080 solid;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 40px #660080 solid;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-top: 380px;
+  }
+  
+  .karaoke {
+    width: 325px;
+    height: 300px;
+    display: block;
+    margin: 4px;
+    box-sizing: border-box;
+    border: 4px #660080 solid;
+    margin-left: 32%;
+    overflow: hidden;
+    transition: .4s ease;
+    cursor: pointer;
+  }
+
+  .karaoke:hover{
+    transform: scale(1.5);
+  }
+  
+  .p1 {
+    color: white;
+    font-family: "Metal Mania", serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+  }

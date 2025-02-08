@@ -1,0 +1,241 @@
+
+
+body {
+  font-family: "Metal Mania", serif;
+  margin: 0;
+  padding: 0;
+}
+
+br{
+  display: none;
+}
+  .sectionGrids {
+    display: grid;
+    grid-area: "" img img img "" "" img img "";
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 75px 20px;
+    column-gap: 300px;
+    row-gap: 10px;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+  
+  .bodyIndex {
+    background-color: black;
+    height: 100%;
+    position: relative;
+  }
+  
+  .sectionGrids2 {
+    display: grid;
+    grid-area: "" img img img "" "" img p "";
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    column-gap: 250px;
+    row-gap: 10px;
+    justify-content: center;
+    margin-top: 75px;
+    margin-right: 150px;
+  }
+  
+  h1 {
+    color: white;
+    font-family: "Metal Mania", serif;
+    font-size: 45px;
+  }
+  
+  .h2 {
+    font-family: "Metal Mania", serif;
+    margin-top: 25px;
+    color: white;
+    font-size: 35px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+  }
+  
+  .parrafo {
+    grid-row: 3;
+    margin-top: 25px;
+    color: white;
+    font-size: 32px;
+    font-family: "Metal Mania", serif;
+  }
+  
+  .parrafo2 {
+    grid-row: 3;
+    grid-column: 2;
+    margin-top: 25px;
+    color: white;
+    font-size: 32px;
+    font-family: "Metal Mania", serif;
+  }
+  
+  .metal-mania-regular {
+    font-family: "Metal Mania", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .parrafoGrid {
+    grid-row: 3;
+    grid-column: 3;
+    margin-top: 25px;
+    color: white;
+    font-size: 30px;
+    font-family: "Metal Mania", serif;
+  }
+  
+  /* CAJA INTRODUCCION INDEX */
+  .box1 {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    border: 20px #660080 solid;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 40px;
+  }
+  
+  /* CAJA STAFF INDEX */
+  .box2 {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    border: 20px #660080 solid;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 40px #660080 solid;
+    background-color: #660080;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  
+  .p2 {
+    background-color: #660080;
+    color: white;
+    font-family: "Metal Mania", serif;
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  .gerente, .barista {
+    height: 300px;
+    width: 350px;
+  }
+  
+  .bartender {
+    height: 300px;
+    width: 400px;
+  }
+  
+  .gerente {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .barista {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .bartender {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  
+  .figcaption {
+    font-size: 30px;
+    box-sizing: border-box;
+    border: 4px #660080 solid;
+    grid-row: 2;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 350px; 
+    
+  }
+  
+  .figcaption1{
+        font-size: 30px;
+    box-sizing: border-box;
+    border: 4px #660080 solid;
+    grid-row: 2;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 350px; 
+    
+  }
+  .tituloSpotify {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 4px;
+    border: 5px #660080 solid;
+  }
+  
+  /* ESTILO FUENTE FIGCAPTION*/
+  figcaption {
+    font-family: "Metal Mania", serif;
+    text-align: center;
+    color: white;
+  }
+  
+  /* ESTILOS ICONOS GRID*/
+  .microfono {
+    height: 90px;
+    width: 90px;
+    overflow: hidden;
+    transition: .4s ease;
+    cursor: pointer;
+  }
+  .microfono:hover{
+    transform: scale(2.0);
+  }
+
+  .rocola1 {
+    height: 90px;
+    width: 90px;
+    overflow: hidden;
+    transition: .4s ease;
+    cursor: pointer;
+  }
+  
+  .rocola1:hover{
+    transform: scale(2.0);
+  }
+  
+  .guitarra {
+    height: 90px;
+    width: 90px;
+    overflow: hidden;
+    transition: .4s ease;
+    cursor: pointer;
+  }
+  .guitarra:hover{
+    transform: scale(2.0);
+  }
+  
+
+  .abrirMenu{
+    display: none;
+  }
+
+  #navBar .index{
+    display: none;
+  }
+
+  .tituloSpotify{
+    color: white;
+    
+  }

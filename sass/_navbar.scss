@@ -1,0 +1,46 @@
+/* CODIGO NAVBAR */
+#navBar {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+
+  }
+  
+  #navBar ul {
+    background-color: #660080;
+    display: flex;
+  }
+  
+  /* ESTO ES PARA QUE QUEDE EN LINEA Y MEDIO CENTRADO EL HEADER Y EL NAVBAR*/
+  #navBar ul li {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    border-radius: 0px;
+    padding: 0px;
+  }
+  
+  #navBar ul li a {
+    background-color: black;
+    display: flex;
+    color: white;
+    width: 80px;
+    text-decoration: none;
+    font-family: "Metal Mania", serif;
+    justify-content: center;
+    font-size: 25px;
+    border-radius: 40px;
+    box-sizing: border-box;
+
+  }
+  
+  #navBar ul li a:hover {
+    color: pink;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  

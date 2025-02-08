@@ -1,0 +1,20 @@
+
+@use "bar.scss";
+@use "cafe.scss";
+@use "footers.scss";
+@use "header.scss";
+@use "index.scss";
+@use "inicioIndex.scss";
+@use "museo.scss";
+@use "musica.scss";
+@use "navbar.scss";
+@use "mediaQueries.scss";
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+

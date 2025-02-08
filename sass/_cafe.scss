@@ -1,0 +1,120 @@
+/* ESTILOS CAFE*/
+#cafe {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .bodyCafe {
+    background-color: black;
+    height: 100%;
+    position: relative;
+    
+  }
+  
+  .sectionGridsCafe {
+    display: grid;
+    grid-area: "" img img img "" "" img img img "" "" img img img "";
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 75px 200px;
+    column-gap: 160px;
+    row-gap: 230px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .waffles {
+    height: 250px;
+    width: 250px;
+    grid-row: 1;
+    grid-column: 1;
+    box-sizing: border-box;
+    border: 4px #660080 solid;
+    overflow: hidden;
+    transition: .4s ease;
+    cursor: pointer;
+  }
+  
+  .medialunas {
+    height: 250px;
+    width: 250px;
+    grid-row: 1;
+    grid-column: 2;
+    box-sizing: border-box;
+    border: 4px #660080 solid;
+    overflow: hidden;
+    transition: .4s ease;
+    cursor: pointer;
+  }
+  
+  .tostaditos {
+    height: 250px;
+    width: 250px;
+    grid-row: 1;
+    grid-column: 3;
+    box-sizing: border-box;
+    border: 4px #660080 solid;
+    overflow: hidden;
+    transition: .4s ease;
+    cursor: pointer;
+  }
+  
+  .croissant{
+    height: 250px;
+    width: 250px;
+    grid-row: 2;
+    grid-column: 1;
+    box-sizing: border-box;
+    border: 4px #660080 solid;
+    overflow: hidden;
+    transition: .4s ease;
+    cursor: pointer;
+  }
+  
+  .torta {
+    height: 250px;
+    width: 250px;
+    grid-row: 2;
+    grid-column: 2;
+    box-sizing: border-box;
+    border: 4px #660080 solid;
+    overflow: hidden;
+    transition: .4s ease;
+    cursor: pointer;
+  }
+  
+  .limonada {
+    height: 250px;
+    width: 250px;
+    grid-row: 2;
+    grid-column: 3;
+    box-sizing: border-box;
+    border: 4px #660080 solid;
+    overflow: hidden;
+    transition: .4s ease;
+    cursor: pointer;
+  }
+  
+
+  .waffles:hover{
+    transform:scale(1.5) ;
+  }
+  .medialunas:hover{
+    transform:scale(1.5) ;
+  }
+  .croissant:hover{
+    transform:scale(1.5) ;
+  }
+  .torta:hover{
+    transform:scale(1.5) ;
+  }
+  .limonada:hover{
+    transform:scale(1.5) ;
+  }
+  .tostaditos:hover{
+    transform:scale(1.5) ;
+  }
+  .footerMuseo{
+    bottom: 0;
+    position: fixed;
+  }
